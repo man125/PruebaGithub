@@ -17,6 +17,15 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        /**Declaramos el objeto*/
+ VentanaPrincipal miVentanaPrincipal;
+ /**Instanciamos el objeto*/
+ miVentanaPrincipal= new VentanaPrincipal();
+ /**Enviamos el objeto como parametro para que sea unico
+  * en toda la aplicación*/
+  miVentanaPrincipal.setVentanaPrincipal(miVentanaPrincipal);
+ /**Hacemos que se cargue la ventana*/
+  miVentanaPrincipal.setVisible(true);
     }
     
 }

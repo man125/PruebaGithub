@@ -72,8 +72,8 @@ private void iniciarComponentes() {
  {
           /*enviamos la instancia de la ventana principal para que
           * esta sea Padre de la ventana de dialogo*/
- //  VentanaConfirmacion miVentanaConfirmacion=new VentanaConfirmacion(miVentanaPrincipal,true);
- //  miVentanaConfirmacion.setVisible(true);
+   VentanaConfirmacion miVentanaConfirmacion=new VentanaConfirmacion(miVentanaPrincipal,true);
+   miVentanaConfirmacion.setVisible(true);
  }
     }
 }
